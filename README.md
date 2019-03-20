@@ -14,19 +14,18 @@ or less.
 It took me some time to learn how to install Punyforth from Windows, since all
 the explanations are for Linux.
  
-For loading punyforth  is only a USB cable necessary, and a flasher
-program. You
-install  2 binaries in the lower part of memory, and 1 txt files
-which is the forth part
-and extensions of the dictionary (core+user program).
-This is the  file wereyou place your programs,  at the end. 
+For loading punyforth you need only a USB cable, a flasher program, and the punyforth binaries. 
+You need to create and install the 2 binaries in the lower part of memory, and 1 txt files
+which is the forth part and extensions of the dictionary (core+user program).
+This is the  file were you place your programs, at the end of it. 
 
-For example there you will include a LCD driver, a I2c driver, a
-server etc... you simply
-append text to the core.forth  file, and save it as a new file.  When
-you flash this to the  ESP8266 over USB, and make reset.
+For example if you need for your project to  include a LCD driver, a I2c driver, a
+server etc... you simply append text to the core.forth  file, and save it as a new file. 
+When you flash this to the  ESP8266 over USB, and make reset.
 The punyforth binary, will open that file, and compile to its
 dictionary in RAM, and run the
-last word of this file which should be your program. If not, it  keeps
-on the REPL  loop
-(the forth interpreter) asking for new commands.
+last word of this file which should be your program run or main word. If not, it  keeps
+on the REPL  loop (the forth interpreter) asking for new commands, like any normal forth.
+https://www.youtube.com/watch?v=NvZHxFj0pt8
+
+![Wi32forth->Punyforth Screenshot](https://github.com/PeterForth/ESP8266-Win32f-Punyforth/blob/master/screen-w32f-punyforth9_n.jpg)
