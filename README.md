@@ -26,6 +26,10 @@ The punyforth binary, will open that file, and compile to its
 dictionary in RAM, and run the
 last word of this file which should be your program run or main word. If not, it  keeps
 on the REPL  loop (the forth interpreter) asking for new commands, like any normal forth.
+Watch my video :
 https://www.youtube.com/watch?v=NvZHxFj0pt8
+
+Special Thanks to Tom Zimmer and FIG Forth contrinbutors who did possible :  Win32forth , 
+and to Attila Magyar for his fantastic Punyforth for Nodemcu, and to Dirk Bruehl for his VisualForth extensions.
 
 ![Wi32forth->Punyforth Screenshot](https://github.com/PeterForth/ESP8266-Win32f-Punyforth/blob/master/screen-w32f-punyforth9_n.jpg)
