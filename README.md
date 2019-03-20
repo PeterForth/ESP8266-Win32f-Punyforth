@@ -29,7 +29,7 @@ on the REPL  loop (the forth interpreter) asking for new commands, like any norm
 Watch my video :
 https://www.youtube.com/watch?v=NvZHxFj0pt8
 
-Special Thanks to Tom Zimmer and FIG Forth contrinbutors who did possible :  Win32forth , 
+Special Thanks to Tom Zimmer and FIG Forth contributors who did possible :  Win32forth , 
 and to Attila Magyar for his fantastic Punyforth for Nodemcu, and to Dirk Bruehl for his VisualForth extensions.
 
 ![Wi32forth->Punyforth Screenshot](https://github.com/PeterForth/ESP8266-Win32f-Punyforth/blob/master/screen-w32f-punyforth9_n.jpg)
