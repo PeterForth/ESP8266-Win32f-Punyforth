@@ -33,3 +33,16 @@ Special Thanks to Tom Zimmer and FIG Forth contributors who did possible :  Win3
 and to Attila Magyar for his fantastic Punyforth for Nodemcu, and to Dirk Bruehl for his VisualForth extensions.
 
 ![Wi32forth->Punyforth Screenshot](https://github.com/PeterForth/ESP8266-Win32f-Punyforth/blob/master/screen-w32f-punyforth9_n.jpg)
+
+
+Recommendation :
+
+To compile without errors, use any Win32forth version above 6.15 , this is my screen after loading
+the program in  Win32forth version  6.15.04.
+
+To communicate with Nodemcu you can modify  the Droplist LP0 to LP5 definitions at line 900
+the range is set-up for mine to 192.168.100 up to  105,  you can edit this values to accomodate yours IPs
+After choosing the right IP from the Droplist, press the red button with the cross in the bottom
+of the screen, and communication link over Telnet will be established with your nodemcu.
+
+![Wi32forth->Punyforth Screenshot](https://github.com/PeterForth/ESP8266-Win32f-Punyforth/blob/master/win32f61504.jpg)
